@@ -1,0 +1,256 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+#phoneimg {
+    padding-left: 70%;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+    font-size: 4rem;
+    ;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(235, 235, 235);
+    margin-right: -10px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 100px;
+}
+
+.appleimg {
+    padding-bottom: 6px;
+    margin-right: 4px;
+}
+
+.playstoreimg {
+    padding-bottom: 4px;
+    margin-right: 4px;
+}
+
+.btn {
+    width: 180px;
+    height: 50px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5rem;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+.nav-link {
+    font-family: 'Montserrat-Light';
+    font-size: 1.2rem;
+}
+
+.dogimg {
+    transform: rotate(28deg);
+    position: absolute;
+    z-index: 0;
+    padding-left: 15px;
+}
+
+.dogimg:hover {
+    transform: rotate(10deg);
+    position: relative;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: #ef8172;
+    padding-bottom: 25px;
+    padding-top: 35px;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+.fa-circle-check {
+    width: 50px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+#features {
+    text-align: center;
+    padding: 7% 14%;
+    z-index: 1;
+    background-color: #fff;
+    position: relative;
+}
+
+h3 {
+    font-family: 'montserrat';
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#testimonials {
+    padding: 7% 14%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.dogimgtest {
+    border-radius: 50%;
+    width: 170px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 2%;
+}
+
+.testimonial-press-images {
+    width: 170px;
+    margin: 25px 25px 0px;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 170px;
+}
+
+#pricing {
+    padding: 7% 14%;
+    text-align: center;
+}
+
+.card {
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+.btn-signup {
+    background-color: #ef8172;
+    color: #fff;
+    min-width: 200px;
+}
+
+.col {
+    margin: 0px;
+}
+
+.card-body-1 {
+    background-image: url("../images/dog-images/1.jpg");
+}
+
+.card-body-2 {
+    background-image: url("../images/dog-images/2.jpg");
+
+
+}
+
+.card-body-3 {
+    background-image: url("../images/dog-images/3.jpg");
+}
+
+background-image {
+    opacity: 0.1;
+    background-repeat: no-repeat;
+}
+
+.card-body-2:before {
+    opacity: 0.5;
+}
+
+.pprice {
+    color: rgb(78, 78, 78);
+}
+
+.pprice:hover {
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+span {
+    color: #f5e4e4;
+}
+
+.Copyright {
+    color: #181717;
+}
+
+.fa-brands {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(39, 39, 39);
+}
+
+.fa {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(39, 39, 39);
+}
+
+.ctatext {
+    font-size: 3.2rem;
+    color: #fff;
+}
+/* CTA DOWNLOAD BUTTONS */ 
+.download-button {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+/* MEDIA QUERY */ 
+@media all and (max-width:992px) {
+    .dogimg {
+        width: 75%;
+        position: relative;
+        padding-top: 25px;
+        transform: rotate(0);
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
