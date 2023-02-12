@@ -48,7 +48,8 @@ a:hover {
   background: #fff;
   max-width: 850px;
   margin: auto;
-  display: flex; }
+  display: flex; 
+  margin-top: 100px;}
   .inner .image-holder {
     width: 50%; }
   .inner form {
