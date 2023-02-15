@@ -102,15 +102,38 @@
   #ageSubmit:hover {
     background-color: #ff4c68;
   }
+  @media all and (max-width:992px) {   
+    #agePopupContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 70%;
+      height: 50%;
+align-items: stretch;
+  }
+.agepopuptxt {font-size: 5rem;}
+.ageinputpopup { height: 100px;}
+.agesubbotton { height: 100px;}
+
+
+}
 </style>
 </head>
 <body>
 
 <div id="agePopup">
   <div id="agePopupContent">
-    <h2 style="text-align: center; font-family: 'Ubuntu' ; ">Please verify your age to continue:</h2>
-    <input style="background-color: #c9bebe; text-align: center;" type="text" id="ageInput" placeholder="Enter your age"><br>
-    <button type="button" id="ageSubmit" onclick="checkAge()">Submit</button>
+    <h2 class="agepopuptxt" style="text-align: center; font-family: 'Ubuntu' ; ">Please verify your age to continue:</h2>
+    <input class="ageinputpopup" style="background-color: #c9bebe; text-align: center;" type="text" id="ageInput" placeholder="Enter your age"><br>
+    <button class="agesubbotton" type="button" id="ageSubmit" onclick="checkAge()">Submit</button>
   </div>
 </div>
 <script>
