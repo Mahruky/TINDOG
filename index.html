@@ -43,7 +43,7 @@
       document.body.style.overflow = "auto";
       localStorage.setItem("ageVerified", true);
     } else {
-      alert("You must be 18 years of age or older to access this website.");
+      alert("You must be 18 years of age or older to access Tindog.");
     }
   }
 
@@ -78,7 +78,8 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
+    align-items: stretch;
   }
 
   #ageInput {
@@ -107,8 +108,8 @@
 
 <div id="agePopup">
   <div id="agePopupContent">
-    <h2 style="text-align: center;">Please verify your age to continue:</h2>
-    <input style="background-color: #c9bebe;" type="text" id="ageInput" placeholder="Enter your age"><br>
+    <h2 style="text-align: center; font-family: 'Ubuntu' ; ">Please verify your age to continue:</h2>
+    <input style="background-color: #c9bebe; text-align: center;" type="text" id="ageInput" placeholder="Enter your age"><br>
     <button type="button" id="ageSubmit" onclick="checkAge()">Submit</button>
   </div>
 </div>
