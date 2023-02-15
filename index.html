@@ -102,6 +102,11 @@
   #ageSubmit:hover {
     background-color: #ff4c68;
   }
+
+      /* Age Verififcation Pop-Up colones  */
+      .ageinputpopup {height: 47px; ;}
+    .agesubbotton { height: 50px;}
+    
   @media all and (max-width:992px) {   
     #agePopupContent {
       display: flex;
@@ -131,7 +136,7 @@ align-items: stretch;
 
 <div id="agePopup">
   <div id="agePopupContent">
-    <h2 class="agepopuptxt" style="text-align: center; font-family: 'Ubuntu' ; ">Please verify your age to continue:</h2>
+    <h2 class="agepopuptxt" style="text-align: center; font-family: 'Ubuntu' ; ">Please verify your age to continue:</h2><br>
     <input class="ageinputpopup" style="background-color: #c9bebe; text-align: center;" type="text" id="ageInput" placeholder="Enter your age"><br>
     <button class="agesubbotton" type="button" id="ageSubmit" onclick="checkAge()">Submit</button>
   </div>
